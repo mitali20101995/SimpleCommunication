@@ -12,8 +12,7 @@ import WatchConnectivity
 class ViewController: UIViewController, WCSessionDelegate {
 
     
-    @IBOutlet weak var outputLabel: UILabel!
-    
+    @IBOutlet weak var lblOutput: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -29,27 +28,26 @@ class ViewController: UIViewController, WCSessionDelegate {
         }
     }
     
-    @IBAction func buttonPressed(_ sender: Any) {
-
+    @IBAction func btnPressed(_ sender: Any) {
+     
         print("Phone: Button pressed")
-        self.outputLabel.text = "Button pressed!"
+        self.lblOutput.text = "Button pressed!"
 
         if (WCSession.default.isReachable) {
             print("PHONE: Phone found the watch")
             
             let message = [
-                "name": "Mitali",
-                "comment": "Jenelle is the best!"
+                "data": "Jenelle is the best!"
             ]
             
             WCSession.default.sendMessage(message, replyHandler: nil)
             
             print("PHONE: Sent the data!")
-            self.outputLabel.text = "Message Sent"
+            self.lblOutput.text = "Message Sent!"
         }
         else {
             print("PHONE: Cannot find the watch")
-            self.outputLabel.text = "Connect the watch first"
+            self.lblOutput.text = "Connect the watch first"
         }
         
     }
