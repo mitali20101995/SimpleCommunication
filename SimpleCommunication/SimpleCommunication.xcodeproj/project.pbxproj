@@ -7,57 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E88502522C7C0560019546B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88502422C7C0560019546B /* AppDelegate.swift */; };
-		6E88502722C7C0560019546B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88502622C7C0560019546B /* ViewController.swift */; };
-		6E88502A22C7C0560019546B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E88502822C7C0560019546B /* Main.storyboard */; };
-		6E88502C22C7C0590019546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E88502B22C7C0590019546B /* Assets.xcassets */; };
-		6E88502F22C7C0590019546B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E88502D22C7C0590019546B /* LaunchScreen.storyboard */; };
-		6E88503422C7C0590019546B /* SimpleCommunication WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E88503322C7C0590019546B /* SimpleCommunication WatchKit App.app */; };
-		6E88503A22C7C0590019546B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E88503822C7C0590019546B /* Interface.storyboard */; };
-		6E88503C22C7C0590019546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E88503B22C7C0590019546B /* Assets.xcassets */; };
-		6E88504322C7C0590019546B /* SimpleCommunication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E88504222C7C0590019546B /* SimpleCommunication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6E88504822C7C0590019546B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88504722C7C0590019546B /* InterfaceController.swift */; };
-		6E88504A22C7C0590019546B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88504922C7C0590019546B /* ExtensionDelegate.swift */; };
-		6E88504C22C7C0590019546B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88504B22C7C0590019546B /* NotificationController.swift */; };
-		6E88504E22C7C05A0019546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E88504D22C7C05A0019546B /* Assets.xcassets */; };
+		6ECDFDF922C7CA3500C98B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDFDF822C7CA3500C98B51 /* AppDelegate.swift */; };
+		6ECDFDFB22C7CA3500C98B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDFDFA22C7CA3500C98B51 /* ViewController.swift */; };
+		6ECDFDFE22C7CA3500C98B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFDFC22C7CA3500C98B51 /* Main.storyboard */; };
+		6ECDFE0022C7CA3600C98B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFDFF22C7CA3600C98B51 /* Assets.xcassets */; };
+		6ECDFE0322C7CA3600C98B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFE0122C7CA3600C98B51 /* LaunchScreen.storyboard */; };
+		6ECDFE0822C7CA3600C98B51 /* SimpleCommunication WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6ECDFE0722C7CA3600C98B51 /* SimpleCommunication WatchKit App.app */; };
+		6ECDFE0E22C7CA3600C98B51 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFE0C22C7CA3600C98B51 /* Interface.storyboard */; };
+		6ECDFE1022C7CA3600C98B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFE0F22C7CA3600C98B51 /* Assets.xcassets */; };
+		6ECDFE1722C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6ECDFE1622C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6ECDFE1C22C7CA3600C98B51 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDFE1B22C7CA3600C98B51 /* InterfaceController.swift */; };
+		6ECDFE1E22C7CA3600C98B51 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDFE1D22C7CA3600C98B51 /* ExtensionDelegate.swift */; };
+		6ECDFE2022C7CA3700C98B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDFE1F22C7CA3700C98B51 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E88503522C7C0590019546B /* PBXContainerItemProxy */ = {
+		6ECDFE0922C7CA3600C98B51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E88501922C7C0560019546B /* Project object */;
+			containerPortal = 6ECDFDED22C7CA3500C98B51 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E88503222C7C0590019546B;
+			remoteGlobalIDString = 6ECDFE0622C7CA3600C98B51;
 			remoteInfo = "SimpleCommunication WatchKit App";
 		};
-		6E88504422C7C0590019546B /* PBXContainerItemProxy */ = {
+		6ECDFE1822C7CA3600C98B51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E88501922C7C0560019546B /* Project object */;
+			containerPortal = 6ECDFDED22C7CA3500C98B51 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E88504122C7C0590019546B;
+			remoteGlobalIDString = 6ECDFE1522C7CA3600C98B51;
 			remoteInfo = "SimpleCommunication WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6E88505622C7C05A0019546B /* Embed App Extensions */ = {
+		6ECDFE2722C7CA3700C98B51 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6E88504322C7C0590019546B /* SimpleCommunication WatchKit Extension.appex in Embed App Extensions */,
+				6ECDFE1722C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88505A22C7C05A0019546B /* Embed Watch Content */ = {
+		6ECDFE2B22C7CA3700C98B51 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				6E88503422C7C0590019546B /* SimpleCommunication WatchKit App.app in Embed Watch Content */,
+				6ECDFE0822C7CA3600C98B51 /* SimpleCommunication WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,35 +64,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E88502122C7C0560019546B /* SimpleCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E88502422C7C0560019546B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E88502622C7C0560019546B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E88502922C7C0560019546B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E88502B22C7C0590019546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E88502E22C7C0590019546B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6E88503022C7C0590019546B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E88503322C7C0590019546B /* SimpleCommunication WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleCommunication WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E88503922C7C0590019546B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		6E88503B22C7C0590019546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E88503D22C7C0590019546B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E88504222C7C0590019546B /* SimpleCommunication WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleCommunication WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E88504722C7C0590019546B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		6E88504922C7C0590019546B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		6E88504B22C7C0590019546B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		6E88504D22C7C05A0019546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E88504F22C7C05A0019546B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E88505022C7C05A0019546B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6ECDFDF522C7CA3500C98B51 /* SimpleCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECDFDF822C7CA3500C98B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECDFDFA22C7CA3500C98B51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ECDFDFD22C7CA3500C98B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECDFDFF22C7CA3600C98B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECDFE0222C7CA3600C98B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ECDFE0422C7CA3600C98B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECDFE0722C7CA3600C98B51 /* SimpleCommunication WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleCommunication WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECDFE0D22C7CA3600C98B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6ECDFE0F22C7CA3600C98B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECDFE1122C7CA3600C98B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECDFE1622C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleCommunication WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECDFE1B22C7CA3600C98B51 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6ECDFE1D22C7CA3600C98B51 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6ECDFE1F22C7CA3700C98B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECDFE2122C7CA3700C98B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E88501E22C7C0560019546B /* Frameworks */ = {
+		6ECDFDF222C7CA3500C98B51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88503F22C7C0590019546B /* Frameworks */ = {
+		6ECDFE1322C7CA3600C98B51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,58 +100,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E88501822C7C0560019546B = {
+		6ECDFDEC22C7CA3500C98B51 = {
 			isa = PBXGroup;
 			children = (
-				6E88502322C7C0560019546B /* SimpleCommunication */,
-				6E88503722C7C0590019546B /* SimpleCommunication WatchKit App */,
-				6E88504622C7C0590019546B /* SimpleCommunication WatchKit Extension */,
-				6E88502222C7C0560019546B /* Products */,
+				6ECDFDF722C7CA3500C98B51 /* SimpleCommunication */,
+				6ECDFE0B22C7CA3600C98B51 /* SimpleCommunication WatchKit App */,
+				6ECDFE1A22C7CA3600C98B51 /* SimpleCommunication WatchKit Extension */,
+				6ECDFDF622C7CA3500C98B51 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6E88502222C7C0560019546B /* Products */ = {
+		6ECDFDF622C7CA3500C98B51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E88502122C7C0560019546B /* SimpleCommunication.app */,
-				6E88503322C7C0590019546B /* SimpleCommunication WatchKit App.app */,
-				6E88504222C7C0590019546B /* SimpleCommunication WatchKit Extension.appex */,
+				6ECDFDF522C7CA3500C98B51 /* SimpleCommunication.app */,
+				6ECDFE0722C7CA3600C98B51 /* SimpleCommunication WatchKit App.app */,
+				6ECDFE1622C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E88502322C7C0560019546B /* SimpleCommunication */ = {
+		6ECDFDF722C7CA3500C98B51 /* SimpleCommunication */ = {
 			isa = PBXGroup;
 			children = (
-				6E88502422C7C0560019546B /* AppDelegate.swift */,
-				6E88502622C7C0560019546B /* ViewController.swift */,
-				6E88502822C7C0560019546B /* Main.storyboard */,
-				6E88502B22C7C0590019546B /* Assets.xcassets */,
-				6E88502D22C7C0590019546B /* LaunchScreen.storyboard */,
-				6E88503022C7C0590019546B /* Info.plist */,
+				6ECDFDF822C7CA3500C98B51 /* AppDelegate.swift */,
+				6ECDFDFA22C7CA3500C98B51 /* ViewController.swift */,
+				6ECDFDFC22C7CA3500C98B51 /* Main.storyboard */,
+				6ECDFDFF22C7CA3600C98B51 /* Assets.xcassets */,
+				6ECDFE0122C7CA3600C98B51 /* LaunchScreen.storyboard */,
+				6ECDFE0422C7CA3600C98B51 /* Info.plist */,
 			);
 			path = SimpleCommunication;
 			sourceTree = "<group>";
 		};
-		6E88503722C7C0590019546B /* SimpleCommunication WatchKit App */ = {
+		6ECDFE0B22C7CA3600C98B51 /* SimpleCommunication WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				6E88503822C7C0590019546B /* Interface.storyboard */,
-				6E88503B22C7C0590019546B /* Assets.xcassets */,
-				6E88503D22C7C0590019546B /* Info.plist */,
+				6ECDFE0C22C7CA3600C98B51 /* Interface.storyboard */,
+				6ECDFE0F22C7CA3600C98B51 /* Assets.xcassets */,
+				6ECDFE1122C7CA3600C98B51 /* Info.plist */,
 			);
 			path = "SimpleCommunication WatchKit App";
 			sourceTree = "<group>";
 		};
-		6E88504622C7C0590019546B /* SimpleCommunication WatchKit Extension */ = {
+		6ECDFE1A22C7CA3600C98B51 /* SimpleCommunication WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6E88504722C7C0590019546B /* InterfaceController.swift */,
-				6E88504922C7C0590019546B /* ExtensionDelegate.swift */,
-				6E88504B22C7C0590019546B /* NotificationController.swift */,
-				6E88504D22C7C05A0019546B /* Assets.xcassets */,
-				6E88504F22C7C05A0019546B /* Info.plist */,
-				6E88505022C7C05A0019546B /* PushNotificationPayload.apns */,
+				6ECDFE1B22C7CA3600C98B51 /* InterfaceController.swift */,
+				6ECDFE1D22C7CA3600C98B51 /* ExtensionDelegate.swift */,
+				6ECDFE1F22C7CA3700C98B51 /* Assets.xcassets */,
+				6ECDFE2122C7CA3700C98B51 /* Info.plist */,
 			);
 			path = "SimpleCommunication WatchKit Extension";
 			sourceTree = "<group>";
@@ -162,49 +157,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E88502022C7C0560019546B /* SimpleCommunication */ = {
+		6ECDFDF422C7CA3500C98B51 /* SimpleCommunication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E88505B22C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication" */;
+			buildConfigurationList = 6ECDFE2C22C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication" */;
 			buildPhases = (
-				6E88501D22C7C0560019546B /* Sources */,
-				6E88501E22C7C0560019546B /* Frameworks */,
-				6E88501F22C7C0560019546B /* Resources */,
-				6E88505A22C7C05A0019546B /* Embed Watch Content */,
+				6ECDFDF122C7CA3500C98B51 /* Sources */,
+				6ECDFDF222C7CA3500C98B51 /* Frameworks */,
+				6ECDFDF322C7CA3500C98B51 /* Resources */,
+				6ECDFE2B22C7CA3700C98B51 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E88503622C7C0590019546B /* PBXTargetDependency */,
+				6ECDFE0A22C7CA3600C98B51 /* PBXTargetDependency */,
 			);
 			name = SimpleCommunication;
 			productName = SimpleCommunication;
-			productReference = 6E88502122C7C0560019546B /* SimpleCommunication.app */;
+			productReference = 6ECDFDF522C7CA3500C98B51 /* SimpleCommunication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E88503222C7C0590019546B /* SimpleCommunication WatchKit App */ = {
+		6ECDFE0622C7CA3600C98B51 /* SimpleCommunication WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E88505722C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit App" */;
+			buildConfigurationList = 6ECDFE2822C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit App" */;
 			buildPhases = (
-				6E88503122C7C0590019546B /* Resources */,
-				6E88505622C7C05A0019546B /* Embed App Extensions */,
+				6ECDFE0522C7CA3600C98B51 /* Resources */,
+				6ECDFE2722C7CA3700C98B51 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E88504522C7C0590019546B /* PBXTargetDependency */,
+				6ECDFE1922C7CA3600C98B51 /* PBXTargetDependency */,
 			);
 			name = "SimpleCommunication WatchKit App";
 			productName = "SimpleCommunication WatchKit App";
-			productReference = 6E88503322C7C0590019546B /* SimpleCommunication WatchKit App.app */;
+			productReference = 6ECDFE0722C7CA3600C98B51 /* SimpleCommunication WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		6E88504122C7C0590019546B /* SimpleCommunication WatchKit Extension */ = {
+		6ECDFE1522C7CA3600C98B51 /* SimpleCommunication WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E88505322C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit Extension" */;
+			buildConfigurationList = 6ECDFE2422C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit Extension" */;
 			buildPhases = (
-				6E88503E22C7C0590019546B /* Sources */,
-				6E88503F22C7C0590019546B /* Frameworks */,
-				6E88504022C7C0590019546B /* Resources */,
+				6ECDFE1222C7CA3600C98B51 /* Sources */,
+				6ECDFE1322C7CA3600C98B51 /* Frameworks */,
+				6ECDFE1422C7CA3600C98B51 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -212,31 +207,31 @@
 			);
 			name = "SimpleCommunication WatchKit Extension";
 			productName = "SimpleCommunication WatchKit Extension";
-			productReference = 6E88504222C7C0590019546B /* SimpleCommunication WatchKit Extension.appex */;
+			productReference = 6ECDFE1622C7CA3600C98B51 /* SimpleCommunication WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6E88501922C7C0560019546B /* Project object */ = {
+		6ECDFDED22C7CA3500C98B51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Mitali Ahir";
 				TargetAttributes = {
-					6E88502022C7C0560019546B = {
+					6ECDFDF422C7CA3500C98B51 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					6E88503222C7C0590019546B = {
+					6ECDFE0622C7CA3600C98B51 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					6E88504122C7C0590019546B = {
+					6ECDFE1522C7CA3600C98B51 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 6E88501C22C7C0560019546B /* Build configuration list for PBXProject "SimpleCommunication" */;
+			buildConfigurationList = 6ECDFDF022C7CA3500C98B51 /* Build configuration list for PBXProject "SimpleCommunication" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,104 +239,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 6E88501822C7C0560019546B;
-			productRefGroup = 6E88502222C7C0560019546B /* Products */;
+			mainGroup = 6ECDFDEC22C7CA3500C98B51;
+			productRefGroup = 6ECDFDF622C7CA3500C98B51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E88502022C7C0560019546B /* SimpleCommunication */,
-				6E88503222C7C0590019546B /* SimpleCommunication WatchKit App */,
-				6E88504122C7C0590019546B /* SimpleCommunication WatchKit Extension */,
+				6ECDFDF422C7CA3500C98B51 /* SimpleCommunication */,
+				6ECDFE0622C7CA3600C98B51 /* SimpleCommunication WatchKit App */,
+				6ECDFE1522C7CA3600C98B51 /* SimpleCommunication WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E88501F22C7C0560019546B /* Resources */ = {
+		6ECDFDF322C7CA3500C98B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E88502F22C7C0590019546B /* LaunchScreen.storyboard in Resources */,
-				6E88502C22C7C0590019546B /* Assets.xcassets in Resources */,
-				6E88502A22C7C0560019546B /* Main.storyboard in Resources */,
+				6ECDFE0322C7CA3600C98B51 /* LaunchScreen.storyboard in Resources */,
+				6ECDFE0022C7CA3600C98B51 /* Assets.xcassets in Resources */,
+				6ECDFDFE22C7CA3500C98B51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88503122C7C0590019546B /* Resources */ = {
+		6ECDFE0522C7CA3600C98B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E88503C22C7C0590019546B /* Assets.xcassets in Resources */,
-				6E88503A22C7C0590019546B /* Interface.storyboard in Resources */,
+				6ECDFE1022C7CA3600C98B51 /* Assets.xcassets in Resources */,
+				6ECDFE0E22C7CA3600C98B51 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88504022C7C0590019546B /* Resources */ = {
+		6ECDFE1422C7CA3600C98B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E88504E22C7C05A0019546B /* Assets.xcassets in Resources */,
+				6ECDFE2022C7CA3700C98B51 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E88501D22C7C0560019546B /* Sources */ = {
+		6ECDFDF122C7CA3500C98B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E88502722C7C0560019546B /* ViewController.swift in Sources */,
-				6E88502522C7C0560019546B /* AppDelegate.swift in Sources */,
+				6ECDFDFB22C7CA3500C98B51 /* ViewController.swift in Sources */,
+				6ECDFDF922C7CA3500C98B51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88503E22C7C0590019546B /* Sources */ = {
+		6ECDFE1222C7CA3600C98B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E88504C22C7C0590019546B /* NotificationController.swift in Sources */,
-				6E88504A22C7C0590019546B /* ExtensionDelegate.swift in Sources */,
-				6E88504822C7C0590019546B /* InterfaceController.swift in Sources */,
+				6ECDFE1E22C7CA3600C98B51 /* ExtensionDelegate.swift in Sources */,
+				6ECDFE1C22C7CA3600C98B51 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E88503622C7C0590019546B /* PBXTargetDependency */ = {
+		6ECDFE0A22C7CA3600C98B51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E88503222C7C0590019546B /* SimpleCommunication WatchKit App */;
-			targetProxy = 6E88503522C7C0590019546B /* PBXContainerItemProxy */;
+			target = 6ECDFE0622C7CA3600C98B51 /* SimpleCommunication WatchKit App */;
+			targetProxy = 6ECDFE0922C7CA3600C98B51 /* PBXContainerItemProxy */;
 		};
-		6E88504522C7C0590019546B /* PBXTargetDependency */ = {
+		6ECDFE1922C7CA3600C98B51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E88504122C7C0590019546B /* SimpleCommunication WatchKit Extension */;
-			targetProxy = 6E88504422C7C0590019546B /* PBXContainerItemProxy */;
+			target = 6ECDFE1522C7CA3600C98B51 /* SimpleCommunication WatchKit Extension */;
+			targetProxy = 6ECDFE1822C7CA3600C98B51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E88502822C7C0560019546B /* Main.storyboard */ = {
+		6ECDFDFC22C7CA3500C98B51 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E88502922C7C0560019546B /* Base */,
+				6ECDFDFD22C7CA3500C98B51 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6E88502D22C7C0590019546B /* LaunchScreen.storyboard */ = {
+		6ECDFE0122C7CA3600C98B51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E88502E22C7C0590019546B /* Base */,
+				6ECDFE0222C7CA3600C98B51 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		6E88503822C7C0590019546B /* Interface.storyboard */ = {
+		6ECDFE0C22C7CA3600C98B51 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E88503922C7C0590019546B /* Base */,
+				6ECDFE0D22C7CA3600C98B51 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -349,7 +343,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6E88505122C7C05A0019546B /* Debug */ = {
+		6ECDFE2222C7CA3700C98B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		6E88505222C7C05A0019546B /* Release */ = {
+		6ECDFE2322C7CA3700C98B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,7 +459,7 @@
 			};
 			name = Release;
 		};
-		6E88505422C7C05A0019546B /* Debug */ = {
+		6ECDFE2522C7CA3700C98B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -486,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		6E88505522C7C05A0019546B /* Release */ = {
+		6ECDFE2622C7CA3700C98B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -507,7 +501,7 @@
 			};
 			name = Release;
 		};
-		6E88505822C7C05A0019546B /* Debug */ = {
+		6ECDFE2922C7CA3700C98B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		6E88505922C7C05A0019546B /* Release */ = {
+		6ECDFE2A22C7CA3700C98B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,7 +537,7 @@
 			};
 			name = Release;
 		};
-		6E88505C22C7C05A0019546B /* Debug */ = {
+		6ECDFE2D22C7CA3700C98B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -560,7 +554,7 @@
 			};
 			name = Debug;
 		};
-		6E88505D22C7C05A0019546B /* Release */ = {
+		6ECDFE2E22C7CA3700C98B51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -580,43 +574,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E88501C22C7C0560019546B /* Build configuration list for PBXProject "SimpleCommunication" */ = {
+		6ECDFDF022C7CA3500C98B51 /* Build configuration list for PBXProject "SimpleCommunication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E88505122C7C05A0019546B /* Debug */,
-				6E88505222C7C05A0019546B /* Release */,
+				6ECDFE2222C7CA3700C98B51 /* Debug */,
+				6ECDFE2322C7CA3700C98B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E88505322C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit Extension" */ = {
+		6ECDFE2422C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E88505422C7C05A0019546B /* Debug */,
-				6E88505522C7C05A0019546B /* Release */,
+				6ECDFE2522C7CA3700C98B51 /* Debug */,
+				6ECDFE2622C7CA3700C98B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E88505722C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit App" */ = {
+		6ECDFE2822C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E88505822C7C05A0019546B /* Debug */,
-				6E88505922C7C05A0019546B /* Release */,
+				6ECDFE2922C7CA3700C98B51 /* Debug */,
+				6ECDFE2A22C7CA3700C98B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E88505B22C7C05A0019546B /* Build configuration list for PBXNativeTarget "SimpleCommunication" */ = {
+		6ECDFE2C22C7CA3700C98B51 /* Build configuration list for PBXNativeTarget "SimpleCommunication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E88505C22C7C05A0019546B /* Debug */,
-				6E88505D22C7C05A0019546B /* Release */,
+				6ECDFE2D22C7CA3700C98B51 /* Debug */,
+				6ECDFE2E22C7CA3700C98B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6E88501922C7C0560019546B /* Project object */;
+	rootObject = 6ECDFDED22C7CA3500C98B51 /* Project object */;
 }
