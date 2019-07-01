@@ -18,9 +18,14 @@
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                         </label>
                         <label alignment="left" text="Label" numberOfLines="10" id="wgu-Kf-9UM"/>
-                        <button width="1" alignment="left" title="Send back" id="Zb4-gh-2SF"/>
+                        <button width="1" alignment="left" title="Send back" id="Zb4-gh-2SF">
+                            <connections>
+                                <action selector="btnSendBackPressed" destination="AgC-eL-Hgc" id="vvk-ty-CPi"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
+                        <outlet property="btnSendBack" destination="Zb4-gh-2SF" id="D0L-EM-nDd"/>
                         <outlet property="lblComment" destination="wgu-Kf-9UM" id="zqy-9D-i12"/>
                     </connections>
                 </controller>

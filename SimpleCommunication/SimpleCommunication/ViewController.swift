@@ -40,7 +40,7 @@ class ViewController: UIViewController, WCSessionDelegate {
                 "data": "Jenelle is the best!"
             ]
             
-            WCSession.default.sendMessage(message, replyHandler: nil)
+            WCSession.default.sendMessage(message, replyHandler:nil)
             
             print("PHONE: Sent the data!")
             self.lblOutput.text = "Message Sent!"
@@ -53,6 +53,18 @@ class ViewController: UIViewController, WCSessionDelegate {
     }
     
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: ([String: Any])->Void) {
+        print("Phone: Got a message from watch!")
+        
+        self.lblOutput.text = "\(message["data"] ?? "error")"
+        
+        let ack = [
+            "data": "Acknowledgement from iPhone"
+        ]
+        replyHandler(ack);
         
     }
     
